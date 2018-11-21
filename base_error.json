@@ -1,0 +1,18 @@
+{
+    "BaseError": {
+        "childern": [
+            {
+                "ParamLostError": {
+                    "code": 20030,
+                    "msg": "param {0} lost"
+                }
+            },
+            {
+                "ParamTypeError": {
+                    "code": 20040,
+                    "msg": "param {0} type need {1} but {2}"
+                }
+            }
+        ]
+    }
+}
